@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Planet Facts</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <img src="assets/background-stars.svg" id="bg-stars" />
+    <!--- HEADER --->
+    <header class="nav-bar">
+      <h1>THE PLANETS</h1>
+      <ul class="nav-planets">
+        <li><a class="planet-btn" id="nav-underline" href="">MERCURY</a></li>
+        <li><a class="planet-btn" id="nav-underline" href="">VENUS</a></li>
+        <li><a class="planet-btn" id="nav-underline" href="">EARTH</a></li>
+        <li><a class="planet-btn" id="nav-underline" href="">MARS</a></li>
+        <li><a class="planet-btn" id="nav-underline" href="">JUPITER</a></li>
+        <li><a class="planet-btn" id="nav-underline" href="">SATURN</a></li>
+        <li><a class="planet-btn" id="nav-underline" href="">URANUS</a></li>
+        <li><a class="planet-btn" id="nav-underline" href="">NEPTUNE</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </header>
+    <!--- Main Page --->
+    <main>
+      <section class="main-planets">
+        <div class="image-container">
+          <img class="planet-image" src="" />
+          <img class="geology-image" src="" />
+        </div>
+        <div class="planet-info">
+          <h1 class="planet-name"></h1>
+          <p class="description"></p>
+          <a class="source" href=""></a>
+          <div class="button-section">
+            <h3 class="overview" id="btn-animate">
+              <span>01</span>
+              OVERVIEW
+            </h3>
+            <h3 class="internal-structure" id="btn-animate">
+              <span>02</span>
+              INTERNAL STRUCTURE
+            </h3>
+            <h3 class="surface-geology" id="btn-animate">
+              <span>03</span>
+              SURFACE GEOLOGY
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <!--- info section --->
+      <section class="info-section">
+        <div class="info-box">
+          <p>Rotation Time</p>
+          <h2 class="rotation-value">58.6 Days</h2>
+        </div>
+        <div class="info-box">
+          <p>Revolution Time</p>
+          <h2 class="revolution-value">87.97</h2>
+        </div>
+        <div class="info-box">
+          <p>Radius</p>
+          <h2 class="radius-value">2,439.7 KM</h2>
+        </div>
+        <div class="info-box">
+          <p>Average Temp</p>
+          <h2 class="average-temp-value">430ºC</h2>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
